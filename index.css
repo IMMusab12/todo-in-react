@@ -1,0 +1,67 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+.comp{
+  gap: 2rem;
+  display: inline-flex;
+  background-color: darkgreen;
+  width: 1910px;
+}
+.h{
+ margin-left: 20px;
+}
+.navcomps{
+  gap: 2rem;
+  margin-left: 1500px;
+  margin-top: 22px ;
+}
+.navComp{
+  margin-left: 20px;
+}
+.components{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.form{
+  background-color:white ;
+  color: black;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  width: 1200px;
+}
+button{
+  margin-right: 12px;
+  background-color: green;
+  color: black;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.Counter{
+margin-left: 1500px;
+position: relative;
+bottom: 60px;
+}
